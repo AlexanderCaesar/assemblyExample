@@ -11,5 +11,5 @@ void setupPixelPrimitives_c(sum_example *s)
 int sum2(int add1, int add2)
 {
   int added = add1 + add2;
-  return added;
+  return added + 1;
 }

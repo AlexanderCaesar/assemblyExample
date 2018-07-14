@@ -16,6 +16,9 @@
     <Filter Include="源文件\common">
       <UniqueIdentifier>{aefb2e63-264f-422e-83b4-724e2932663c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\common\Assembly">
+      <UniqueIdentifier>{71d46aff-44ed-4773-a1e1-48aa5ee180cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\source\main.c">
@@ -26,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="..\..\source\common\sum.c">
       <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\x86\asm-primitives.c">
+      <Filter>源文件\common\Assembly</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

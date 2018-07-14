@@ -5,11 +5,10 @@
 
 int main()
 {
-  Param param;
-  int add1 = 2018;
-  int add2 = 1989;
+  int add1 = 1;
+  int add2 = 2;
 
-  setup_primitives(&param);
+  setup_primitives();
 
   int added = sum_ex(add1, add2);
 
