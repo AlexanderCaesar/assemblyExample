@@ -11,10 +11,9 @@ void setup_primitives()
 {
   setupPixelPrimitives_c(&sum_ex); //setup c function
 
-  //setupAssemblyPrimitives(&sum_ex);
-
-#if ARCH_X86
-#endif
+//#if ARCH_X86
+//  setupAssemblyPrimitives(&sum_ex);
+//#endif
 
 
 }
