@@ -5,5 +5,5 @@ int sumAssembly(int add1, int add2);
 
 void setupAssemblyPrimitives(sum_example *s)
 {
-  *s = sumAssembly;
+  //*s = sumAssembly;
 }

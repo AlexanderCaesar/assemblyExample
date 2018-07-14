@@ -29,10 +29,10 @@ LOCAL_SRC_FILES := $(assemblyExample_srcs_c)
 # Load the arch-specific settings
 
 
-#include $(LOCAL_PATH)/assemblyExample.arm.mk
-#LOCAL_SRC_FILES += $(LOCAL_SRC_FILES_arm)
-#LOCAL_CFLAGS += $(LOCAL_CFLAGS_arm)
-#LOCAL_C_INCLUDES += $(LOCAL_C_INCLUDES_arm)
+include $(LOCAL_PATH)/assemblyExample.arm.mk
+LOCAL_SRC_FILES += $(LOCAL_SRC_FILES_arm)
+LOCAL_CFLAGS += $(LOCAL_CFLAGS_arm)
+LOCAL_C_INCLUDES += $(LOCAL_C_INCLUDES_arm)
 
 include $(BUILD_EXECUTABLE)
 

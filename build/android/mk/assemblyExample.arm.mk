@@ -9,7 +9,7 @@ LOCAL_ARM_MODE         := arm
 
 ifeq ($(ARCH_ARM_HAVE_NEON),true)
 LOCAL_ARM_NEON := true   
-libhevcd_srcs_asm_arm   +=  $(SOURCE_PATH)/common/arm/sum-a.s
+assemblyExample_srcs_asm_arm   +=  $(SOURCE_PATH)/common/arm/sum-a.s
 
 assemblyExample_cflags_arm += -DDEFAULT_ARCH=D_ARCH_ARM_A9Q
 else
