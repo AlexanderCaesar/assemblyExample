@@ -64,6 +64,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\source\common\sum.c" />
+    <ClCompile Include="..\..\source\main.c" />
+    <ClCompile Include="..\..\source\primitives.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\primitives.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
