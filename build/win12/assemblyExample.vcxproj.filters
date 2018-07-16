@@ -39,4 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <YASM Include="..\..\source\common\x86\sum-a.asm">
+      <Filter>源文件\common\Assembly</Filter>
+    </YASM>
+  </ItemGroup>
 </Project>
