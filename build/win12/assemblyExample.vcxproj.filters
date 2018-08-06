@@ -19,6 +19,9 @@
     <Filter Include="源文件\common\Assembly">
       <UniqueIdentifier>{71d46aff-44ed-4773-a1e1-48aa5ee180cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\common\Intrinsics">
+      <UniqueIdentifier>{52f888dc-3e2a-4a7d-aa38-14e431e72d4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\source\main.c">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="..\..\source\common\x86\asm-primitives.c">
       <Filter>源文件\common\Assembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\intrinsics\x86-intrinsics-primitives.c">
+      <Filter>源文件\common\Intrinsics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

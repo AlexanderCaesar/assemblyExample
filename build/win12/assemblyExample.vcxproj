@@ -67,6 +67,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\source\common\intrinsics\x86-intrinsics-primitives.c" />
     <ClCompile Include="..\..\source\common\sum.c" />
     <ClCompile Include="..\..\source\common\x86\asm-primitives.c" />
     <ClCompile Include="..\..\source\main.c" />
