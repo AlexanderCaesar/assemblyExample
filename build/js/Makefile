@@ -1,5 +1,5 @@
 XX = emcc
-#CFLAGS = -DARCH_X86
+CFLAGS = -DARCH_X86 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 -O3
 #CLIBS = -lpthread
 
 SOURCE_DIR = ../../source
