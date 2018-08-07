@@ -1,6 +1,7 @@
 //add by xiaoc 20180714
 
 #include "primitives.h"
+#include <stdio.h>
 
 sum_example sum_ex;
 
@@ -12,9 +13,11 @@ void setup_primitives()
 {
   setupPixelPrimitives_c(&sum_ex); //setup c function
 
-  setupInstrinsicPrimitives(&sum_ex);
+  //setupInstrinsicPrimitives(&sum_ex);
 
 #if ARCH_X86
+  printf("aaaab \n");
+
   //setupAssemblyPrimitives(&sum_ex);
 #endif
 
